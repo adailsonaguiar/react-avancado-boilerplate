@@ -7,7 +7,6 @@ const Main = () => (
       alt="Imagem de um átomo e React Avançado escrito ao lado"
     />
     <S.Title>React Avançado</S.Title>
-    <h1>React Avançado</h1>
     <S.Description>TypeScript, NextJs, e Styled Components</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
