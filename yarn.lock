@@ -1833,22 +1833,22 @@
     util-deprecate "^1.0.2"
     uuid "^8.0.0"
 
-"@storybook/addon-knobs@^5.3.19":
-  version "5.3.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-5.3.19.tgz#b2483e401e2dca6390e1c0a81801130a0b515efb"
-  integrity sha512-e7z6KhvVOUGjygK4VL5Un1U3t0XG0jkb/BOHVWQMtH5dWNn3zofD3LrZZy24eAsyre/ej/LGo/BzwDSXkKLTog==
+"@storybook/addon-knobs@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-6.0.7.tgz#3193795a70a058d891355a94723456b9ad045ef4"
+  integrity sha512-HUnHOAtS03iuLHrK53KNPe74RYGJ3ww3WFC4051yl+LLoyDthcMwmIMX7UdM84tngMu5otS02+XCJg3K3aV7OQ==
   dependencies:
-    "@storybook/addons" "5.3.19"
-    "@storybook/api" "5.3.19"
-    "@storybook/client-api" "5.3.19"
-    "@storybook/components" "5.3.19"
-    "@storybook/core-events" "5.3.19"
-    "@storybook/theming" "5.3.19"
-    "@types/react-color" "^3.0.1"
+    "@storybook/addons" "6.0.7"
+    "@storybook/api" "6.0.7"
+    "@storybook/channels" "6.0.7"
+    "@storybook/client-api" "6.0.7"
+    "@storybook/components" "6.0.7"
+    "@storybook/core-events" "6.0.7"
+    "@storybook/theming" "6.0.7"
     copy-to-clipboard "^3.0.8"
     core-js "^3.0.1"
     escape-html "^1.0.3"
-    fast-deep-equal "^2.0.1"
+    fast-deep-equal "^3.1.1"
     global "^4.3.2"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -1856,6 +1856,7 @@
     react-color "^2.17.0"
     react-lifecycles-compat "^3.0.4"
     react-select "^3.0.8"
+    regenerator-runtime "^0.13.3"
 
 "@storybook/addon-links@^6.0.6":
   version "6.0.6"
@@ -1903,7 +1904,7 @@
     global "^4.3.2"
     regenerator-runtime "^0.13.3"
 
-"@storybook/addons@6.0.7":
+"@storybook/addons@6.0.7", "@storybook/addons@^6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.0.7.tgz#a03c578c341b10d04043cc2b5dc371dbb77fe6b3"
   integrity sha512-1OpzfPrmX+Ui8+Es4DFzo5SKGQwprjCAM2wqLoxrgo2oPvc2hOFyH8fNCvq2uHE29nvXeNwcG5bDKNaDzYMqfA==
