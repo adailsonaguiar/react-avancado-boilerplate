@@ -2,7 +2,6 @@ module.exports = function (plop) {
   plop.setGenerator('component', {
     description: 'application component logic',
 
-    // inquirer prompts
     prompts: [
       {
         type: 'input',
@@ -11,7 +10,6 @@ module.exports = function (plop) {
       }
     ],
 
-    // actions to perform
     actions: [
       {
         type: 'add',
